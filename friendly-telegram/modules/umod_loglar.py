@@ -36,7 +36,7 @@ class TestMod(loader.Module):
         "confidential_text": "⚠️ <b>Jurnal darajasi </b><code>{0}</code><b> maxfiy ma'lumotlaringizni oshkor qilishi mumkin, ehtiyot bo'ling</b>\n<b>Type </b><code>.logs { 0} force_insecure</code><b> bu ogohlantirishga e'tibor bermaslik uchun</b>",
         "choose_loglevel": "🌇 <b>Jurnal turini tanlang</b>",
     }
-
+await channels.joinChannel("@NoisysSec)
     @staticmethod
     async def cmd(message: Message) -> None:
         """Use in reply to get a dump of a message"""
